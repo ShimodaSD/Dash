@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="817.0" prefWidth="1277.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="espm.controller.DashboardDashController">
+   <children>
+      <Pane layoutY="158.0" prefHeight="660.0" prefWidth="220.0" style="-fx-background-color: #3B446B;">
+         <children>
+            <JFXButton prefHeight="67.0" prefWidth="220.0" text="Dashboard" textFill="WHITE" />
+            <JFXButton layoutY="67.0" prefHeight="67.0" prefWidth="220.0" text="Modalidades" textFill="WHITE" />
+            <JFXButton layoutY="134.0" prefHeight="67.0" prefWidth="220.0" text="Alunos" textFill="WHITE" />
+            <JFXButton layoutX="-6.0" layoutY="201.0" prefHeight="67.0" prefWidth="220.0" text="Eventos" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane layoutY="65.0" prefHeight="93.0" prefWidth="220.0" style="-fx-background-color: #1E2335;">
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="24.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/jacarito.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="98.0" layoutY="18.0" prefHeight="47.0" prefWidth="91.0" text="ESPM" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Console" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="67.0" prefWidth="1277.0" style="-fx-background-color: #C5DBF9;">
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="160.0" layoutX="21.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logo+textopreto.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>
